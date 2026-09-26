@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+dist/
+build/
+*.egg-info/
+artifacts/
+data/*.csv
+!data/.gitkeep
+.ipynb_checkpoints/
+.DS_Store
