@@ -31,7 +31,7 @@ def load_dataset(
 
     target = frame[target_column]
     classes = set(target.unique())
-    if not classes.issubset({0, 1, False, True}) or len(classes) != 2:
+    if not classes.issubset({0, 1}) or len(classes) != 2:
         raise DatasetError(
             "target must contain exactly two binary classes encoded as 0/1"
         )
